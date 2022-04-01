@@ -3,8 +3,8 @@
 
     stockData::stockData(string stockName) {
     this->stockName = stockName;
-    this->stockFilePath = R"(C:\Users\omrik\Desktop\FB.stock)";
-    this->epsFilePath = R"(C:\Users\omrik\Desktop\FB.esp)";
+    this->stockFilePath = "./" + stockName + ".stock";
+    this->epsFilePath = "./" + stockName + ".esp";
     loadDataFromFile();
     loadEPSFromFile();
 }
