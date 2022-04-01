@@ -3,4 +3,4 @@ project(linuxEx)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(linuxEx main.cpp cmake-build-debug/stockDateNode.cpp stockData.cpp stockData.h cmake-build-debug/stockDateNode.cpp)
+add_executable(linuxEx main.cpp cmake-build-debug/stockDateNode.cpp stockData.cpp stockData.h cmake-build-debug/stockDateNode.cpp mainQ1.cpp mainQ2.cpp mainQ3.cpp)

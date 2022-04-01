@@ -1,10 +1,10 @@
 #include <iostream>
-#include <fstream>
 #include "stockData.h"
 
 using namespace std;
 
-int main() {
+int main(int argc, char **argv) {
+    // test main
     // Q1
     stockData FB = stockData("FB");
     //FB.printStockByYear(2020);
